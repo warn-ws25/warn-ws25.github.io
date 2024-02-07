@@ -86,7 +86,7 @@ The workshop focuses on the benefits and drawbacks of personalisation and behavi
 
   <div class="row m-3">
     <div class="col-sm-12" style="text-align: -webkit-center;">
-      <p>Lessons learned from <a href="" target=_blank>past</a> edition. Aspects of personalization in robotics.</p>
+      <p>Lessons learned from <a href="https://sites.google.com/view/warn-roman23/home" target=_blank>past</a> edition. Aspects of personalization in robotics.</p>
     </div>
     <div class="col-sm-6" style="text-align: -webkit-center;">
       <b>Positive</b>
@@ -161,7 +161,7 @@ The workshop focuses on the benefits and drawbacks of personalisation and behavi
   });
 
   var cons = new Typed('#cons-text', {
-    strings: ["Unpredictability", "Stereotyping", "Deception", "Introduction of Biases", "Risk of Manipulation"],
+    strings: ["Risk of unpredictable behaviours", "Stereotyping", "Deception", "Introduction of Biases", "Risk of Manipulation"],
     typeSpeed: 50,
     // startDelay: 100,
     backDelay: 4000,
