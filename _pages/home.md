@@ -30,7 +30,8 @@ pagination:
   <div class="tag-category-list">
     <ul class="p-0 m-0">      
         <li>
-          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="https://www.ro-man2024.org/" target=_blank>roman24</a>
+          <!-- <i class="fa-solid fa-hashtag fa-sm"></i> -->
+          Workshop proposed to: <a href="https://www.ro-man2024.org/" target=_blank>roman24</a>
         </li>
           <p>&bull;</p>
           <i class="fa-solid fa-pin fa-sm"></i> <p> 26th August 2024</p>
@@ -55,7 +56,7 @@ Personalisation can greatly improve short- and long-term interactions in various
 Nonetheless, it is essential to consider whether and to what extent personalisation can be beneficial for interactions and users. Robots developed as end-to-end systems for conducting social interactions can amplify cultural biases, gender and age stereotypes. Therefore, it is crucial to discuss when personalisation is desired or required, and when it should be avoided. 
 In contexts such as healthcare and education, personalisation can lead to inadequate care or support and lower acceptance of the professionals who use the technology (teachers and healthcare professionals). Additionally, collecting personal data to provide tailored assistance can raise privacy concerns, as many machine learning algorithms are not transparent to users. Furthermore, deep learning algorithms may amplify existing biases, hindering the primary goal of making interactions more engaging and trustworthy.
 
-
+<br>
 The workshop focuses on the benefits and drawbacks of personalisation and behavioural adaptation in social HRI. In particular, this workshop aims at bringing together a multidisciplinary group of researchers from areas including, but not limited to, psychology, neuroscience, computer science, robotics, and sociology, to share and discuss current approaches for robots specifically designed for meeting the individual's unique needs via adaptive behaviours and learning capabilities.
 
 </p>
@@ -77,10 +78,55 @@ The workshop focuses on the benefits and drawbacks of personalisation and behavi
 
 </div>
 
-<div class="tag-category-list">
-    <ul class="p-0 m-0">
-        <p>&bull;</p>
-    </ul>
+<hr>
+<p>Brought you by</p>
+
+
+
+
+<div class="card-group">
+  <div class="card m-1 p-1">
+    <a href="http://www.perseo.eu">
+      <img src="{{ site.baseurl }}/assets/img/perseo.png" class="card-img-top" alt="Perseo">
+    </a>
   </div>
-  <hr>
+
+  <div class="card m-1 p-1" style="align-self: flex-start; background:red;">
+    <a href="https://www.iri.upc.edu/">
+      <img src="{{ site.baseurl }}/assets/img/iri.png" class="card-img-top" alt="IRI">
+    </a>
+  </div>
+
+<div class="col">
+<div class="row">
+  <div class="card m-1 p-1" style="align-self: flex-start;">
+    <a href="http://www.unina.it">
+      <img src="{{ site.baseurl }}/assets/img/unina.png" class="card-img-center" alt="Federico II">
+    </a>
+  </div>
+</div>
+<div class="row">
+  <div class="card m-1 p-1" style="align-self: flex-start;">
+    <a href="http://www.unibz.it">
+      <img src="{{ site.baseurl }}/assets/img/unibz.png" class="card-img-center" alt="UniBZ">
+    </a>
+  </div>
+</div>
+</div>
+
+
+
+
+
+  <div class="card m-1 p-1" style="align-self: flex-start;">
+    <a href="https://www.uni-augsburg.de/">
+      <img src="{{ site.baseurl }}/assets/img/aus.png" class="card-img-center" alt="AusburgUni">
+    </a>
+  </div>
+
+
+</div>
+
+<hr>
+
 </div>
