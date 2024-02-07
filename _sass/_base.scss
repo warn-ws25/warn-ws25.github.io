@@ -177,7 +177,7 @@ blockquote {
 // Profile
 
 .profile {
-  width: 100%;
+  max-width: 240px;
 
   .more-info {
     margin-bottom: 5px;
@@ -1096,4 +1096,14 @@ swiper-container {
   --swiper-navigation-color: var(--global-theme-color);
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
+}
+
+
+.main-description{
+
+  text-align: justify;
+}
+
+.bio{
+  text-align: justify;
 }
