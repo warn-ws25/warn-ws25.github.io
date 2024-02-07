@@ -45,6 +45,8 @@ pagination:
 <!-- <div style="margin-top: -15px; text-align: center;"><p><h3><span id="typing-text"></span></h3></p></div> -->
 </div>
 
+
+
 <div class="row m-3">
 <div class="col-sm-9">
 <h3>Abstract</h3>
@@ -79,12 +81,27 @@ The workshop focuses on the benefits and drawbacks of personalisation and behavi
 </div>
 
 <hr>
+
+<div id="container-header">
+
+  <div class="row m-3">
+    <div class="col-sm-12" style="text-align: -webkit-center;">
+      <p>Lessons learned from <a href="" target=_blank>past</a> edition. Aspects of personalization in robotics.</p>
+    </div>
+    <div class="col-sm-6" style="text-align: -webkit-center;">
+      <b>Positive</b>
+      <p><span id="pro-text"></span></p>
+    </div>
+    <div class="col-sm-6" style="text-align: -webkit-center;">
+      <b>Negative</b>
+      <p><span id="cons-text"></span></p>
+    </div>
+  </div>
+
+<hr>
 <p>Brought you by</p>
 
-
-
-
-<div class="card-group">
+<div class="card-group mt-3 mb-5">
   <div class="card m-1 p-1">
     <a href="http://www.perseo.eu">
       <img src="{{ site.baseurl }}/assets/img/perseo.png" class="card-img-top" alt="Perseo">
@@ -98,25 +115,21 @@ The workshop focuses on the benefits and drawbacks of personalisation and behavi
   </div>
 
 <div class="col">
-<div class="row">
-  <div class="card m-1 p-1" style="align-self: flex-start;">
-    <a href="http://www.unina.it">
-      <img src="{{ site.baseurl }}/assets/img/unina.png" class="card-img-center" alt="Federico II">
-    </a>
+  <div class="row">
+    <div class="card m-1 p-1" style="align-self: flex-start;">
+      <a href="http://www.unina.it">
+        <img src="{{ site.baseurl }}/assets/img/unina.png" class="card-img-center" alt="Federico II">
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="card m-1 p-1" style="align-self: flex-start;">
+      <a href="http://www.unibz.it">
+        <img src="{{ site.baseurl }}/assets/img/unibz.png" class="card-img-center" alt="UniBZ">
+      </a>
+    </div>
   </div>
 </div>
-<div class="row">
-  <div class="card m-1 p-1" style="align-self: flex-start;">
-    <a href="http://www.unibz.it">
-      <img src="{{ site.baseurl }}/assets/img/unibz.png" class="card-img-center" alt="UniBZ">
-    </a>
-  </div>
-</div>
-</div>
-
-
-
-
 
   <div class="card m-1 p-1" style="align-self: flex-start;">
     <a href="https://www.uni-augsburg.de/">
@@ -124,9 +137,41 @@ The workshop focuses on the benefits and drawbacks of personalisation and behavi
     </a>
   </div>
 
-
 </div>
-
 <hr>
-
 </div>
+
+
+
+<!-- Load library from the CDN -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<!-- Setup and start animation! -->
+<script>
+   var pro = new Typed('#pro-text', {
+    strings: ["Acceptance", "Usability", "Comfort", "Increased Enjoyment", "Familiarization"],
+    typeSpeed: 50,
+    // startDelay: 100,
+    backDelay: 4000,
+    fadeOut: false,
+    backSpeed: 40,
+    smartBackspace: true,
+    loop: true,
+    showCursor: false
+  });
+
+  var cons = new Typed('#cons-text', {
+    strings: ["Unpredictability", "Stereotyping", "Deception", "Introduction of Biases", "Risk of Manipulation"],
+    typeSpeed: 50,
+    // startDelay: 100,
+    backDelay: 4000,
+    fadeOut: false,
+    backSpeed: 40,
+    smartBackspace: true,
+    loop: true,
+    showCursor: false
+  });
+</script>
+
+
+
