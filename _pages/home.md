@@ -48,36 +48,39 @@ pagination:
 
 
 <div class="row m-3">
-<div class="col-sm-9">
-<h3>Abstract</h3>
-<p class="main-description">
-The importance of personalisation in Human-Robot Interaction has already shown its advantages in multiple scenarios and will become a prevalent direction for the field.
-Robots are required to adapt their behaviour in both short- and long-term interactions.
-In the short term, as the interactions are very often limited in time, robots need to learn from scratch the user's preferences and adapt quickly to them. In the long term, users' needs may change and robots need to continuously adapt in a way that keeps them engaged and interested over time.
-Personalisation can greatly improve short- and long-term interactions in various real-world scenarios by fostering trust and rapport, increasing adherence to the interaction, enhancing engagement through tailored content, and improving task performance. 
-Nonetheless, it is essential to consider whether and to what extent personalisation can be beneficial for interactions and users. Robots developed as end-to-end systems for conducting social interactions can amplify cultural biases, gender and age stereotypes. Therefore, it is crucial to discuss when personalisation is desired or required, and when it should be avoided. 
-In contexts such as healthcare and education, personalisation can lead to inadequate care or support and lower acceptance of the professionals who use the technology (teachers and healthcare professionals). Additionally, collecting personal data to provide tailored assistance can raise privacy concerns, as many machine learning algorithms are not transparent to users. Furthermore, deep learning algorithms may amplify existing biases, hindering the primary goal of making interactions more engaging and trustworthy.
+  <div class="col-sm-9">
+    <h3>Abstract</h3>
+      <p class="main-description">
+      The importance of personalisation in Human-Robot Interaction has already shown its advantages in multiple scenarios and will become a prevalent direction for the field.
+      Robots are required to adapt their behaviour in both short- and long-term interactions.
+      In the short term, as the interactions are very often limited in time, robots need to learn from scratch the user's preferences and adapt quickly to them. In the long term, users' needs may change and robots need to continuously adapt in a way that keeps them engaged and interested over time.
+      Personalisation can greatly improve short- and long-term interactions in various real-world scenarios by fostering trust and rapport, increasing adherence to the interaction, enhancing engagement through tailored content, and improving task performance. 
+      Nonetheless, it is essential to consider whether and to what extent personalisation can be beneficial for interactions and users. Robots developed as end-to-end systems for conducting social interactions can amplify cultural biases, gender and age stereotypes. Therefore, it is crucial to discuss when personalisation is desired or required, and when it should be avoided. 
+      In contexts such as healthcare and education, personalisation can lead to inadequate care or support and lower acceptance of the professionals who use the technology (teachers and healthcare professionals). Additionally, collecting personal data to provide tailored assistance can raise privacy concerns, as many machine learning algorithms are not transparent to users. Furthermore, deep learning algorithms may amplify existing biases, hindering the primary goal of making interactions more engaging and trustworthy.
 
-<br>
-The workshop focuses on the benefits and drawbacks of personalisation and behavioural adaptation in social HRI. In particular, this workshop aims at bringing together a multidisciplinary group of researchers from areas including, but not limited to, psychology, neuroscience, computer science, robotics, and sociology, to share and discuss current approaches for robots specifically designed for meeting the individual's unique needs via adaptive behaviours and learning capabilities.
+      <br>
+      The workshop explores the complex area of personalisation and behavioural adaptation in social human-robot interaction (HRI), examining both their benefits and drawbacks. It provides a forum for a diverse group of researchers from various fields, including psychology, neuroscience, computer science, robotics, and sociology, to come together. 
+      </p>
+  </div>
 
-</p>
-</div>
-<div class="col-sm-3">
+  <div class="col-sm-3">
+  {% if page.img %}
+    <img class="caption__media" data-interchange="
+    {% for img in page.img %}
+      [{{site.baseurl}}/asset/img/{{img[1]}} ({{img[0]}})]
+      {% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+    ">
+  {% endif %}
+  <img class="card-img" src="{{ site.baseurl }}/assets/img/{{ page.img }}" alt="image">
+  </div>
 
-{% if page.img %}
-  <img class="caption__media" data-interchange="
-  {% for img in page.img %}
-    [{{site.baseurl}}/asset/img/{{img[1]}} ({{img[0]}})]
-    {% unless forloop.last %}, {% endunless %}
-  {% endfor %}
-  ">
-{% endif %}
-
-<img class="card-img" src="{{ site.baseurl }}/assets/img/{{ page.img }}" alt="image">
-
-</div>
-
+  <div class="col-sm-12">
+  <h3>Goal</h3>
+  <p class="main-description">
+  The workshop aims to lay the foundations for a potential <b>journal publication</b>, using the insights and discussions generated during the sessions. Participants will be encouraged to actively contribute to the journal to ensure diverse perspectives and comprehensive coverage of the topics discussed, thereby increasing the impact of the results. For this reason, the workshop program will alternate interactive activities with panel sessions and keynote presentations. This will enhance the comprehension of the topic while maintaining an engaging structure for the audience.
+  </p>
+  </div>
 </div>
 
 <hr>
