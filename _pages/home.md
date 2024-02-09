@@ -80,6 +80,8 @@ pagination:
   <p class="main-description">
   The workshop aims to lay the foundations for a potential <b>journal publication</b>, using the insights and discussions generated during the sessions. Participants will be encouraged to actively contribute to the journal to ensure diverse perspectives and comprehensive coverage of the topics discussed, thereby increasing the impact of the results. For this reason, the workshop program will alternate interactive activities with panel sessions and keynote presentations. This will enhance the comprehension of the topic while maintaining an engaging structure for the audience.
   </p>
+
+  <p>Contact us at: <a href="mailto:warn-workshop@proton.me">warn-workshop@proton.me</a></p>
   </div>
 </div>
 
