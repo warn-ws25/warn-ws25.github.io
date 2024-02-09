@@ -190,7 +190,7 @@ pagination:
 
   <div class="card m-1 p-1" style="align-self: flex-start;">
     <a href="https://www.uni-augsburg.de/">
-      <img src="{{ site.baseurl }}/assets/img/aus.png" class="card-img-center" alt="AusburgUni">
+      <img src="{{ '/assets/css/aus.png' | relative_url | bust_file_cache }}" class="card-img-center" alt="AusburgUni">
     </a>
   </div>
 
