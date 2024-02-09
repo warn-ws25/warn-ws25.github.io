@@ -136,3 +136,11 @@ transform: translateX(-50%); */
   transform: none;
   opacity: 1;
 }
+
+.speaker-img{
+  object-fit: cover; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  width: 100%;
+  min-height: 240px;
+
+}

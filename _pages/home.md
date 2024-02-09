@@ -16,7 +16,7 @@ pagination:
     before: 1 # The number of links before the current page
     after: 3 # The number of links after the current page
 ---
-<link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/custom.css">
+
 <div class="post">
 
 {% assign blog_name_size = site.blog_name | size %}
@@ -101,6 +101,38 @@ pagination:
     </div>
   </div>
 
+<hr>
+  <div class="row m-3">
+  <div class="col-sm-12">
+      <h3>Our presenters</h3>
+      </div>
+      <div class="card-group mt-3 mb-5">
+        <div class="col-sm-3">
+          <div class="card m-1 p-1 h-100">
+            <a href="https://laurelriek.org/" target=_blank>
+              <img src="{{ site.baseurl }}/assets/img/lr.jpg" class="card-img-top speaker-img" alt="Lauriel">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Lauriel Riek</h5>
+              <p class="card-text">Professor of Computer Science and Engineering</p>
+              <p class="card-text">UC San Diego</p>
+            </div>        
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card m-1 p-1 h-100">
+            <a href="https://emmanuel-senft.github.io/" target=_blank>
+              <img src="{{ site.baseurl }}/assets/img/es.jpg" class="card-img-top speaker-img" alt="Emmanuel">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Emmanuel Senft</h5>
+              <p class="card-text">Research Scientist and Group Leader</p>
+              <p class="card-text">Idiap Research Institute</p>
+            </div>        
+          </div>
+        </div>
+  </div>
+  </div>
 <hr>
 <p>Brought you by</p>
 
