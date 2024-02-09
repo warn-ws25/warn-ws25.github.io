@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload = function () {
   new Typed('#pro-text', {
     strings: ["Acceptance", "Usability", "Comfort", "Enjoyment", "Familiarization"],
     typeSpeed: 50,
@@ -12,7 +12,7 @@ window.onload = function() {
   });
 };
 
-window.onload = function() {
+window.onload = function () {
   new Typed('#cons-text', {
     strings: ["Unpredictability", "Stereotyping", "Deception", "Biases", "Manipulation"],
     typeSpeed: 50,
