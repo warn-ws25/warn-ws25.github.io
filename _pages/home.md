@@ -40,7 +40,6 @@ pagination:
     </ul>
   </div>
 
-
 <!-- <div style="text-align: center;"><p><h3>Personalisation in robotics is...</h3></p></div> -->
 <!-- <div style="margin-top: -15px; text-align: center;"><p><h3><span id="typing-text"></span></h3></p></div> -->
 </div>
