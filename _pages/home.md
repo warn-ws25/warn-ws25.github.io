@@ -112,7 +112,7 @@ pagination:
             <a href="https://laurelriek.org/" target=_blank>
               <img src="{{ site.baseurl }}/assets/img/lr.jpg" class="card-img-top speaker-img" alt="Lauriel">
             </a>
-            <div class="card-body">
+            <div class="card-body" style="padding-bottom: initial;">
               <h5 class="card-title">Lauriel Riek</h5>
               <p class="card-text">Professor of Computer Science and Engineering</p>
               <p class="card-text">UC San Diego</p>
@@ -124,10 +124,30 @@ pagination:
             <a href="https://emmanuel-senft.github.io/" target=_blank>
               <img src="{{ site.baseurl }}/assets/img/es.jpg" class="card-img-top speaker-img" alt="Emmanuel">
             </a>
-            <div class="card-body">
+            <div class="card-body" style="padding-bottom: initial;">
               <h5 class="card-title">Emmanuel Senft</h5>
               <p class="card-text">Research Scientist and Group Leader</p>
               <p class="card-text">Idiap Research Institute</p>
+            </div>        
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card m-1 p-1 h-100">
+            <a href="" target=_blank>
+              <img src="{{ site.baseurl }}/assets/img/ukf.png" class="card-img-top speaker-img" alt="TBD">
+            </a>
+            <div class="card-body" style="padding-bottom: initial;">
+              <h5 class="card-title">Presenter TBD</h5>
+            </div>        
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card m-1 p-1 h-100">
+            <a href="" target=_blank>
+              <img src="{{ site.baseurl }}/assets/img/ukm.png" class="card-img-top speaker-img" alt="TBD">
+            </a>
+            <div class="card-body" style="padding-bottom: initial;">
+              <h5 class="card-title">Presenter TBD</h5>
             </div>        
           </div>
         </div>
