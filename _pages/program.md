@@ -6,6 +6,7 @@ description: (Tentative)
 nav: true
 nav_order: 6
 ---
+
 <hr>
 The structure of the workshop may include, but is not necessarily limited to:
 <ul> 
@@ -28,7 +29,6 @@ The structure of the workshop may include, but is not necessarily limited to:
 <li>Workshop Date: August 26th, 2024 (To be decided by the ROMAN2024’s PC)</li>
 </ul>
 
-
 <h3>List of topics:</h3>
 <ul>
     <li>Personalisation in short and long-term HRI</li>
@@ -50,6 +50,3 @@ The structure of the workshop may include, but is not necessarily limited to:
     <li>Ethical implications of personalisation</li>
     <li>Robot customization and teaching</li>
 </ul>
-
-
-

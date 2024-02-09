@@ -39,13 +39,11 @@ pagination:
         <i class="fa fa-place" aria-hidden="true"></i> <p> Pasadena California, USA</p>
     </ul>
   </div>
-  
+
 
 <!-- <div style="text-align: center;"><p><h3>Personalisation in robotics is...</h3></p></div> -->
 <!-- <div style="margin-top: -15px; text-align: center;"><p><h3><span id="typing-text"></span></h3></p></div> -->
 </div>
-
-
 
 <div class="row m-3">
   <div class="col-sm-9">
@@ -59,8 +57,9 @@ pagination:
       In contexts such as healthcare and education, personalisation can lead to inadequate care or support and lower acceptance of the professionals who use the technology (teachers and healthcare professionals). Additionally, collecting personal data to provide tailored assistance can raise privacy concerns, as many machine learning algorithms are not transparent to users. Furthermore, deep learning algorithms may amplify existing biases, hindering the primary goal of making interactions more engaging and trustworthy.
 
       <br>
-      The workshop explores the complex area of personalisation and behavioural adaptation in social human-robot interaction (HRI), examining both their benefits and drawbacks. It provides a forum for a diverse group of researchers from various fields, including psychology, neuroscience, computer science, robotics, and sociology, to come together. 
+      The workshop explores the complex area of personalisation and behavioural adaptation in social human-robot interaction (HRI), examining both their benefits and drawbacks. It provides a forum for a diverse group of researchers from various fields, including psychology, neuroscience, computer science, robotics, and sociology, to come together.
       </p>
+
   </div>
 
   <div class="col-sm-3">
@@ -190,15 +189,13 @@ pagination:
 
   <div class="card m-1 p-1" style="align-self: flex-start;">
     <a href="https://www.uni-augsburg.de/">
-      <img src="{{ '/assets/css/aus.png' | relative_url | bust_file_cache }}" class="card-img-center" alt="AusburgUni">
+      <img src="{{ site.baseurl }}/assets/img/aus.png" class="card-img-center" alt="AusburgUni">
     </a>
   </div>
 
 </div>
 <hr>
 </div>
-
-
 
 <!-- Load library from the CDN -->
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
@@ -229,6 +226,3 @@ pagination:
     showCursor: false
   });
 </script>
-
-
-

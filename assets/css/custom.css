@@ -17,7 +17,7 @@
 }
 
 #typing-text {
-  color: #09AD94;
+  color: #09ad94;
 }
 
 a: link {
@@ -75,7 +75,7 @@ a: link {
 .line:after {
   position: absolute;
   display: block;
-  content: '';
+  content: "";
   height: 1rem;
   width: 1rem;
   border-radius: 50%;
@@ -137,10 +137,9 @@ transform: translateX(-50%); */
   opacity: 1;
 }
 
-.speaker-img{
+.speaker-img {
   object-fit: cover; /* Do not scale the image */
   object-position: center; /* Center the image within the element */
   width: 100%;
   min-height: 240px;
-
 }
