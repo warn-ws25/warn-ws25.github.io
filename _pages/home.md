@@ -31,12 +31,12 @@ pagination:
     <ul class="p-0 m-0">      
         <li>
           <!-- <i class="fa-solid fa-hashtag fa-sm"></i> -->
-          Workshop proposed to: <a href="https://www.ro-man2024.org/" target=_blank>roman24</a>
+          Workshop included in: <a href="https://www.ro-man2024.org/" target=_blank>IEEE RO-MAN24</a>
         </li>
           <p>&bull;</p>
-          <i class="fa-solid fa-pin fa-sm"></i> <p> 26th August 2024</p>
+          <i class="fa-solid fa-pin fa-sm"></i> <p>26th August 2024</p>
         <p>&bull;</p>
-        <i class="fa fa-place" aria-hidden="true"></i> <p> Pasadena California, USA</p>
+        <i class="fa fa-place" aria-hidden="true"></i> <p>Pasadena California, USA</p>
     </ul>
   </div>
 
