@@ -102,57 +102,32 @@ pagination:
   </div>
 
 <hr>
-  <div class="row m-3">
-  <div class="col-sm-12">
+<div class="row m-3">
+    <div class="col-sm-12">
       <h3>Our presenters</h3>
+    </div>
+   <div id="myCarouselSpeakers" class="carousel slide container card-deck mt-3 mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner w-100">  
+        {% assign speakers = site.data.speakers.speakers %}
+        {% for speaker in speakers %}
+            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+              <div class="col-md-3 my-1 pr-0 pl-0 h-100">
+                <div class="card p-1">
+                <a href="{{ speaker.website }}" target="_blank">
+                  <img src="{{ speaker.image }}" class="card-img-top speaker-img" alt="{{ speaker.name }}">
+                </a>
+                <div class="card-body" style="padding-bottom: initial;">
+                  <h5 class="card-title">{{ speaker.name }}</h5>
+                  <p class="card-text">{{ speaker.title }}</p>
+                  <p class="card-text">{{ speaker.affiliation }}</p>
+                </div>        
+              </div>
+            </div>
+          </div>
+        {% endfor %}
       </div>
-      <div class="card-group mt-3 mb-5">
-        <div class="col-sm-3">
-          <div class="card m-1 p-1 h-100">
-            <a href="https://laurelriek.org/" target=_blank>
-              <img src="{{ site.baseurl }}/assets/img/lr.jpg" class="card-img-top speaker-img" alt="Lauriel">
-            </a>
-            <div class="card-body" style="padding-bottom: initial;">
-              <h5 class="card-title">Lauriel Riek</h5>
-              <p class="card-text">Professor of Computer Science and Engineering</p>
-              <p class="card-text">UC San Diego</p>
-            </div>        
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="card m-1 p-1 h-100">
-            <a href="https://emmanuel-senft.github.io/" target=_blank>
-              <img src="{{ site.baseurl }}/assets/img/es.jpg" class="card-img-top speaker-img" alt="Emmanuel">
-            </a>
-            <div class="card-body" style="padding-bottom: initial;">
-              <h5 class="card-title">Emmanuel Senft</h5>
-              <p class="card-text">Research Scientist and Group Leader</p>
-              <p class="card-text">Idiap Research Institute</p>
-            </div>        
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="card m-1 p-1 h-100">
-            <a href="" target=_blank>
-              <img src="{{ site.baseurl }}/assets/img/ukf.png" class="card-img-top speaker-img" alt="TBD">
-            </a>
-            <div class="card-body" style="padding-bottom: initial;">
-              <h5 class="card-title">Presenter TBD</h5>
-            </div>        
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="card m-1 p-1 h-100">
-            <a href="" target=_blank>
-              <img src="{{ site.baseurl }}/assets/img/ukm.png" class="card-img-top speaker-img" alt="TBD">
-            </a>
-            <div class="card-body" style="padding-bottom: initial;">
-              <h5 class="card-title">Presenter TBD</h5>
-            </div>        
-          </div>
-        </div>
-  </div>
-  </div>
+    </div>
+</div>
 <hr>
 <p>Brought you by</p>
 
@@ -195,7 +170,7 @@ pagination:
 </div>
 <hr>
 </div>
-
+  
 <!-- Load library from the CDN -->
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
