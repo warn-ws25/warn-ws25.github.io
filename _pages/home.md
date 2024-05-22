@@ -120,7 +120,10 @@ pagination:
                   <h5 class="card-title">{{ speaker.name }}</h5>
                   <p class="card-text">{{ speaker.title }}</p>
                   <p class="card-text">{{ speaker.affiliation }}</p>
-                </div>        
+                </div>
+                  <div class="card-footer text-muted small">
+                      {{ speaker.attendance }}
+                  </div>
               </div>
             </div>
           </div>
