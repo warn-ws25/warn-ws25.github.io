@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".carousel .carousel-item").each(function(){var i=4,n=$(this).next();n.length||(n=$(this).siblings(":first")),n.children(":first-child").clone().appendTo($(this));for(var t=0;t<i;t++)(n=n.next()).length||(n=$(this).siblings(":first")),n.children(":first-child").clone().appendTo($(this))})});
