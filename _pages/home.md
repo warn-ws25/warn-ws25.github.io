@@ -22,10 +22,16 @@ pagination:
 {% assign blog_name_size = site.blog_name | size %}
 {% assign blog_description_size = site.blog_description | size %}
 
-  <div class="header-bar">
+<div class="header-bar">
+  <div class="logo">
+    <img src="{{site.baseurl}}/assets/img/logo.jpg" alt="Logo">
+  </div>
+  <div class="header-content">
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
   </div>
+</div>
+
 
   <div class="tag-category-list">
     <ul class="p-0 m-0">      
@@ -81,6 +87,18 @@ pagination:
 
   <p>Contact us at: <a href="mailto:warn-workshop@proton.me">warn-workshop@proton.me</a></p>
   </div>
+
+  <div class="col-sm-12">
+  <h3>Submit your contribution</h3>
+    <p class="main-description">
+    We invite paper submissions of novel work (even in the form of initial ideas, and methodology design), summaries of past work that are relevant for the topics of interest. 
+    Extended abstracts: up to 2 pages excluding references (e.g., for short paragraphs/ abstracts / opinion / future plans) <br>
+    More details in <a href="{{ site.baseurl }}/program">program</a>.
+    </p>
+    <div style="text-align: center;">
+      <a href="https://easychair.org/cfp/content.cgi?a=32929671" class="btn main-button" target="_blank">Submit Your Manuscript</a>
+    </div>
+  </div>
 </div>
 
 <hr>
@@ -116,13 +134,18 @@ pagination:
                 <a href="{{ speaker.website }}" target="_blank">
                   <img src="{{ speaker.image }}" class="card-img-top speaker-img" alt="{{ speaker.name }}">
                 </a>
-                <div class="card-body" style="padding-bottom: initial;">
+                <div class="card-body p-2">
                   <h5 class="card-title">{{ speaker.name }}</h5>
                   <p class="card-text">{{ speaker.title }}</p>
                   <p class="card-text">{{ speaker.affiliation }}</p>
                 </div>
-                  <div class="card-footer text-muted small">
-                      {{ speaker.attendance }}
+                  <div class="card-footer text-muted small p-2 d-flex justify-content-between">
+                    <div class="col pl-0">
+                        {{ speaker.contribution }}
+                    </div>
+                    <div class="col pr-0 text-right">
+                        {{ speaker.attendance }}
+                    </div>
                   </div>
               </div>
             </div>

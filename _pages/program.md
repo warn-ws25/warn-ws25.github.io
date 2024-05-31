@@ -6,9 +6,8 @@ description: (Tentative)
 nav: true
 nav_order: 6
 ---
-
 <hr>
-The structure of the workshop may include, but is not necessarily limited to:
+<h3>Workshop program</h3>
 <ul> 
     <li>Introduction of the drafted journal structure that will serve as pivotal discussion guideline during the workshop</li>
     <li>Invited speakers' presentations followed by interactive activities to engage the audience and collect different perspectives on the topics</li>
@@ -18,35 +17,81 @@ The structure of the workshop may include, but is not necessarily limited to:
     <li>Closing remarks and definition of plan of action for the scientific contribution</li>
 </ul>
 
-<h3>Important Dates</h3>
 
-<ul>
+<h3>The Keynote Speaker: </h3>
+<div class="row" style="display: flex; justify-content: center;">
+  <div class="col-md-3 pr-0 pl-0 m-1" style = "min-height: 400px; max-width: 255px;">
+      <div class="card p-1" style="min-height: inherit;">
+        <a href="https://laurelriek.org/" target="_blank">
+            <img src="/assets/img/lr.jpg" class="card-img-top speaker-img" alt="Lauriel Riek">
+        </a>
+        <div class="card-body p-2">
+            <h5 class="card-title">Lauriel Riek</h5>
+            <p class="card-text">Professor of Computer Science and Engineering</p>
+            <p class="card-text">UC San Diego</p>
+        </div>
+        <div class="card-footer text-muted small p-2">
+            In person <i class='fa-solid fa-user'></i>
+        </div>
+      </div>
+  </div>
+  <div class="col-md-6 m-1 pr-0 pl-0 d-inline">
+      <div class="card p-1" style="min-height: inherit;">
+      <div class="card-header"><h3>Title</h3></div>
+      <div class="card-body">Abstract: TBD</div>
+      </div>
+  </div>
+</div>
+<hr>
 
-<li>Deadline for Paper Submission: June 3rd, 2024</li>
-<li>Paper Acceptance Notification: June 19th, 2024</li>
-<li>Camera Ready Paper: June 26th, 2024</li>
-<li>Main Conference Date: August 26th– August 30th, 2024</li>
-<li>Workshop Date: August 26th, 2024 (To be decided by the ROMAN2024’s PC)</li>
-</ul>
+<h3>Panel session #1: </h3>
+   <div id="myCarouselSpeakers" class="carousel container card-deck mt-3 mb-5">
+      <div class="carousel-inner w-100">  
+        {% assign speakers = site.data.speakers.speakers | where: "session", "Session1" %}
+        {% for speaker in speakers %}
+            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+              <div class="col-md-3 my-1 pr-0 pl-0 h-100">
+                <div class="card p-1">
+                <a href="{{ speaker.website }}" target="_blank">
+                  <img src="{{ speaker.image }}" class="card-img-top speaker-img" alt="{{ speaker.name }}">
+                </a>
+                <div class="card-body p-2">
+                  <h5 class="card-title">{{ speaker.name }}</h5>
+                  <p class="card-text">{{ speaker.title }}</p>
+                  <p class="card-text">{{ speaker.affiliation }}</p>
+                </div>
+                  <div class="card-footer text-muted small p-2">
+                      {{ speaker.attendance }}
+                  </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
 
-<h3>List of topics:</h3>
-<ul>
-    <li>Personalisation in short and long-term HRI</li>
-    <li>User modelling in HRI</li>
-    <li>Robot's personality</li>
-    <li>Context and situation awareness for robots</li>
-    <li>Engagement evaluation and re-engagement strategies</li>
-    <li>Personalised dialogue with robots</li>
-    <li>Personalised non-verbal behaviour with robots</li>
-    <li>Adaptive human-aware task planning</li>
-    <li>Theory of Mind for adaptive interaction</li>
-    <li>Machine Learning for robotic personalisation</li>
-    <li>Lifelong (continual) learning for adaptation </li>
-    <li>Adaptation in multimodal interaction</li>
-    <li>Affective and emotion-adapted HRI</li>
-    <li>Persuasion in HRI</li>
-    <li>Culture-aware robots</li>
-    <li>Evaluation metrics for adaptive robotic behaviour</li>
-    <li>Ethical implications of personalisation</li>
-    <li>Robot customization and teaching</li>
-</ul>
+<h3>Panel session #2: </h3>
+<div id="myCarouselSpeakers" class="carousel container card-deck mt-3 mb-5">
+      <div class="carousel-inner w-100">  
+        {% assign speakers = site.data.speakers.speakers | where: "session", "Session2" %}
+        {% for speaker in speakers %}
+            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+              <div class="col-md-3 my-1 pr-0 pl-0 h-100">
+                <div class="card p-1">
+                <a href="{{ speaker.website }}" target="_blank">
+                  <img src="{{ speaker.image }}" class="card-img-top speaker-img" alt="{{ speaker.name }}">
+                </a>
+                <div class="card-body p-2">
+                  <h5 class="card-title">{{ speaker.name }}</h5>
+                  <p class="card-text">{{ speaker.title }}</p>
+                  <p class="card-text">{{ speaker.affiliation }}</p>
+                </div>
+                  <div class="card-footer text-muted small p-2">
+                      {{ speaker.attendance }}
+                  </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
