@@ -140,10 +140,10 @@ pagination:
                   <p class="card-text">{{ speaker.affiliation }}</p>
                 </div>
                   <div class="card-footer text-muted small p-2 d-flex justify-content-between">
-                    <div class="col pl-0">
+                    <div class="col pl-0 text-muted small">
                         {{ speaker.contribution }}
                     </div>
-                    <div class="col pr-0 text-right">
+                    <div class="col pr-0 text-right text-muted small">
                         {{ speaker.attendance }}
                     </div>
                   </div>
