@@ -5,10 +5,10 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: WARN
 middle_name:
-last_name: Weighting the benefits of Autonomous Robot persoNalisation
+last_name: Weighing the benefits of Autonomous Robot persoNalisation
 email: vignif+warn@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Weighting the benefits of Autonomous Robot persoNalisation
+  Weighing the benefits of Autonomous Robot persoNalisation
 footer_text: >
   Made with ❤️️ using <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
@@ -124,7 +124,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: WARN # blog_name will be displayed in your blog page
-blog_description: Weighting the benefits of Autonomous Robot persoNalisation
+blog_description: Weighing the benefits of Autonomous Robot persoNalisation
 permalink: /blog/:year/:title/
 
 # Pagination
