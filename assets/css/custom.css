@@ -194,6 +194,10 @@ transform: translateX(-50%); */
   background-color: var(--global-theme-color) !important;
 }
 
+.main-button:hover{
+  color: azure;
+}
+
 .header-bar {
   display: flex;
   align-items: center;
