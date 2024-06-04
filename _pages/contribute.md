@@ -18,7 +18,7 @@ nav_order: 2
 </ul>
 
   <div style="text-align: center;">
-    <a href="https://easychair.org/cfp/content.cgi?a=32929671" class="btn main-button" target="_blank">Submit Your Manuscript</a>
+    <a href="https://easychair.org/my/conference?conf=warn24" class="btn main-button" target="_blank">Submit Your Manuscript</a>
   </div>
 </div>
 <hr>
