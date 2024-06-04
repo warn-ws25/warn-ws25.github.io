@@ -164,9 +164,9 @@ pagination:
     </a>
   </div>
 
-  <div class="card m-1 p-1" style="align-self: flex-start; background:red;">
-    <a href="https://www.iri.upc.edu/">
-      <img src="{{ site.baseurl }}/assets/img/iri.png" class="card-img-top" alt="IRI">
+  <div class="card m-1 p-1" style="align-self: flex-start;">
+    <a href="https://www.iiia.csic.es/">
+      <img src="{{ site.baseurl }}/assets/img/iiia-small.png" class="card-img-top" alt="IIIA">
     </a>
   </div>
 
