@@ -81,13 +81,13 @@
         "contribution": "Panellist"
       },
       {
-        "name": "TBD",
-        "image": "/assets/img/ukm.png",
-        "website": "/",
-        "title": "Researcher",
-        "affiliation": "affiliation",
+        "name": "Elaine Short",
+        "image": "/assets/img/eshort.jpg",
+        "website": "https://eshort.github.io/",
+        "title": "Clare Boothe Luce Assistant Professor",
+        "affiliation": "Tufts University",
         "session": "Session2",
-        "attendance": "Online <i class='fa-solid fa-globe'></i>",
+        "attendance": "In person <i class='fa-solid fa-user'></i>",
         "contribution": "Panellist"
       }
     ]
