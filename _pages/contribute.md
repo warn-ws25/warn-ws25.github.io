@@ -10,8 +10,8 @@ nav_order: 2
 <div>
 <h3>Important Dates</h3>
 <ul>
-    <li>Deadline for Paper Submission: July 1st, 2024</li>
-    <li>Paper Acceptance Notification: July 15th, 2024</li>
+    <li>Deadline for Paper Submission: <s>July 1st, 2024</s> <b>July 15th, 2024</b></li>
+    <li>Paper Acceptance Notification: <s>July 15th, 2024</s> <b>July 31st, 2024</b></li>
     <li>Camera Ready Paper: August 16th, 2024</li>
     <li>Main Conference Date: August 26th– August 30th, 2024</li>
     <li>Workshop Date: August 26th, 2024 (To be decided by the ROMAN2024’s PC)</li>

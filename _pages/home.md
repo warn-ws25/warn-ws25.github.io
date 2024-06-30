@@ -155,7 +155,7 @@ pagination:
     </div>
 </div>
 <hr>
-<p>Brought you by</p>
+<p>Brought to you by</p>
 
 <div class="card-group mt-3 mb-5">
   <div class="card m-1 p-1">
