@@ -230,3 +230,8 @@ transform: translateX(-50%); */
     margin:auto;
   }
 }
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
