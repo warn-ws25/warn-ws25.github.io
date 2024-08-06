@@ -96,7 +96,8 @@ pagination:
     More details in <a href="{{ site.baseurl }}/program">program</a>.
     </p>
     <div style="text-align: center;">
-      <a href="https://easychair.org/my/conference?conf=warn24" class="btn main-button" target="_blank">Submit Your Manuscript</a>
+      <a href="https://easychair.org/my/conference?conf=warn24" class="btn main-button disabled" target="_blank">Submit Your Manuscript</a>
+    <i>Submissions are closed.</i>
     </div>
   </div>
 </div>
