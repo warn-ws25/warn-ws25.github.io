@@ -51,16 +51,14 @@ nav_order: 6
 <h3>Paper session (Accepted papers): </h3>
 <i>5 min presentation + 2 min Q&amp;A</i>
 <i>Schedule might be updated</i>
-
-
-<!-- <ul>
+<ul>
     <li>"Exploring how users across cultures design and perceive multimodal robot emotion" - <i>Mathieu DePaul, Dagoberto Cruz-Sandoval and Alyssa Kubota</i></li>
     <li>"Personalising Explanations and Explaining Personalisation" - <i>Tamlin Love, Antonio Andriella and Guillem Alenyà</i></li>
     <li>"Learning Human-Robot Handshaking Preferences for Quadruped Robots" - <i>Alessandra Chappuis, Guillaume Bellegarda and Auke Ijspeert</i></li>
     <li>"Robots as Mediators to Resolve Multi-User Preference Conflicts" - <i>Aniol Civit, Rebecca Stower, Iolanda Leite, Antonio Andriella and Guillem Alenyà</i></li>
     <li>"EVOLVE: Emotion and Visual Output Learning via LLM Evaluation" - <i>Jordan Sinclair and Christopher Reardon</i></li>
     <li>"Detection of EEG ErrPs with no a priori knowledge of the occurrence time of stimuli" - <i>Alessandra Fava, Valeria Villani and Lorenzo Sabattini</i></li>
-</ul> -->
+</ul>
 <hr>
 <h3>Coffee Break</h3>
 <hr>
