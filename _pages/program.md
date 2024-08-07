@@ -22,7 +22,7 @@ nav_order: 6
 
 <hr>
 <h3>Panel session #1 - Personalization relinquishes user autonomy</h3>
-<p>Provocative statement: <i>The design of personalised social robots must find a delicate balance between empowering the user and preserving their autonomy to avoid fostering overdependence and diminishing self-sufficiency.</i></p>
+<p><i>The design of personalised social robots must find a delicate balance between empowering the user and preserving their autonomy to avoid fostering overdependence and diminishing self-sufficiency.</i></p>
    <div id="myCarouselSpeakers" class="carousel container card-deck mt-3 mb-5">
       <div class="carousel-inner w-100">  
         {% assign speakers = site.data.speakers.speakers | where: "session", "Session1" %}
@@ -90,7 +90,7 @@ nav_order: 6
 
 <hr>
 <h3>Panel session #2 - Personalization reinforces social stereotypes and biases</h3>
-<p>Provocative statement: <i>Personalised robots help adapt to user preferences and habits but at the same time they risk narrowing users' world-views and hinder opportunities for growth by overly customising experiences.</i></p>
+<p><i>Personalised robots help adapt to user preferences and habits but at the same time they risk narrowing users' world-views and hinder opportunities for growth by overly customising experiences.</i></p>
 <div id="myCarouselSpeakers" class="carousel container card-deck mt-3 mb-5">
       <div class="carousel-inner w-100">  
         {% assign speakers = site.data.speakers.speakers | where: "session", "Session2" %}
