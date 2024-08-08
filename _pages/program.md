@@ -30,7 +30,7 @@ Stances are highlighted in each panellist card.
     <div class="carousel-inner w-100 d-flex">  
         {% assign speakers_against = site.data.speakers.speakers | where: "session", "Session1" | where: "stance", "AGAINST" %}
         {% assign speakers_for = site.data.speakers.speakers | where: "session", "Session1" | where: "stance", "FOR" %}
-        {% assign all_speakers = speakers_against | concat: speakers_for %}
+        {% assign all_speakers = speakers_for | concat: speakers_against %}
 
         {% for speaker in all_speakers %}
             <div class="carousel-item {% if forloop.first %}active{% endif %}">
