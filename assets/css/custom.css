@@ -144,7 +144,7 @@ transform: translateX(-50%); */
 }
 
 .carousel-item > div > .card{
-  min-height: 400px !important;
+  min-height: 440px !important;
 }
 
 @media (max-width: 768px) {
@@ -235,3 +235,10 @@ a.disabled {
   pointer-events: none;
   cursor: default;
 }
+
+.vs-text {
+  color: #333;
+  align-content: space-around;
+  font-style: italic;
+}
+

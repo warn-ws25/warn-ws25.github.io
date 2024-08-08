@@ -11,13 +11,14 @@
         "contribution": "Keynote"
       },
       {
-        "name": "Emmanuel Senft",
-        "image": "/assets/img/es.jpg",
-        "website": "https://emmanuel-senft.github.io/",
-        "title": "Research Scientist and Group Leader",
-        "affiliation": "Idiap Research Institute",
+        "name": "Wing-Yue Geoffrey Louie",
+        "image": "/assets/img/jl.jpg",
+        "website": "https://www.geoffrey-louie.com/",
+        "title": "Associate Professor",
+        "affiliation": "Oakland University",
         "session": "Session1",
-        "attendance": "Online <i class='fa-solid fa-globe'></i>",
+        "attendance": "In person <i class='fa-solid fa-user'></i>",
+        "stance":"AGAINST",
         "contribution": "Panellist"
       },
       {
@@ -28,6 +29,7 @@
         "affiliation": "Karlsruhe Institute of Technology",
         "session": "Session1",
         "attendance": "In person <i class='fa-solid fa-user'></i>",
+        "stance":"FOR",
         "contribution": "Panellist"
       },
       {
@@ -38,6 +40,7 @@
         "affiliation": "The University of Southern California",
         "session": "Session2",
         "attendance": "In person <i class='fa-solid fa-user'></i>",
+        "stance":"FOR",
         "contribution": "Panellist"
       },
       {
@@ -48,6 +51,7 @@
         "affiliation": "University of Washington",
         "session": "Session2",
         "attendance": "In person <i class='fa-solid fa-user'></i>",
+        "stance":"AGAINST",
         "contribution": "Panellist"
       },
       {
@@ -58,6 +62,7 @@
         "affiliation": "Harvard University",
         "session": "Session1",
         "attendance": "Online <i class='fa-solid fa-globe'></i>",
+        "stance":"FOR",
         "contribution": "Panellist"
       },
       {
@@ -68,6 +73,7 @@
         "affiliation": "University of Melbourne",
         "session": "Session1",
         "attendance": "Online <i class='fa-solid fa-globe'></i>",
+        "stance":"AGAINST",
         "contribution": "Panellist"
       },
       {
@@ -78,6 +84,7 @@
         "affiliation": "KTH Royal Institute of Technology",
         "session": "Session2",
         "attendance": "In person <i class='fa-solid fa-user'></i>",
+        "stance":"FOR",
         "contribution": "Panellist"
       },
       {
@@ -88,6 +95,7 @@
         "affiliation": "Tufts University",
         "session": "Session2",
         "attendance": "In person <i class='fa-solid fa-user'></i>",
+        "stance":"AGAINST",
         "contribution": "Panellist"
       }
     ]

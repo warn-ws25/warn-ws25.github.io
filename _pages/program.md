@@ -16,37 +16,46 @@ nav_order: 6
     <li>Panel session</li>
     <li>Closing remarks and definition of plan of action for the scientific contribution</li>
 </ul> -->
+
 <div class="card my-5" style="min-height: inherit; max-width: 50%; margin-left: auto !important; margin-right: auto !important;">
     <img src="/assets/img/program.png" class="mx-auto d-block" >
 </div>
-
+The panel sessions are organized as <b>Oxford style</b> debates and panellists are invited to argue <b>FOR</b> or <b>AGAINST</b> the session topic. 
+<br>
+Stances are highlighted in each panellist card.
 <hr>
 <h3>Panel session #1 - Personalization relinquishes user autonomy</h3>
 <p><i>The design of personalised social robots must find a delicate balance between empowering the user and preserving their autonomy to avoid fostering overdependence and diminishing self-sufficiency.</i></p>
-   <div id="myCarouselSpeakers" class="carousel container card-deck mt-3 mb-5">
-      <div class="carousel-inner w-100">  
-        {% assign speakers = site.data.speakers.speakers | where: "session", "Session1" %}
-        {% for speaker in speakers %}
+  <div id="myCarouselSpeakers" class="carousel container card-deck mt-3 mb-5">
+    <div class="carousel-inner w-100 d-flex">  
+        {% assign speakers_against = site.data.speakers.speakers | where: "session", "Session1" | where: "stance", "AGAINST" %}
+        {% assign speakers_for = site.data.speakers.speakers | where: "session", "Session1" | where: "stance", "FOR" %}
+        {% assign all_speakers = speakers_against | concat: speakers_for %}
+
+        {% for speaker in all_speakers %}
             <div class="carousel-item {% if forloop.first %}active{% endif %}">
-              <div class="col-md-3 my-1 pr-0 pl-0 h-100">
-                <div class="card p-1">
-                <a href="{{ speaker.website }}" target="_blank">
-                  <img src="{{ speaker.image }}" class="card-img-top speaker-img" alt="{{ speaker.name }}">
-                </a>
-                <div class="card-body p-2">
-                  <h5 class="card-title">{{ speaker.name }}</h5>
-                  <p class="card-text">{{ speaker.title }}</p>
-                  <p class="card-text">{{ speaker.affiliation }}</p>
+                <div class="col-md-3 my-1 pr-0 pl-0 h-100">
+                    <div class="card p-1">
+                        <a href="{{ speaker.website }}" target="_blank">
+                            <img src="{{ speaker.image }}" class="card-img-top speaker-img" alt="{{ speaker.name }}">
+                        </a>
+                        <div class="card-body p-2">
+                            <h5 class="card-title">{{ speaker.name }}</h5>
+                            <p class="card-text">{{ speaker.title }}</p>
+                            <p class="card-text">{{ speaker.affiliation }}</p>
+                        </div>
+                        <div class="card-footer text-muted small p-2">
+                            {{ speaker.attendance }}
+                        </div>
+                        <div class="card-footer text-muted small p-2">Stance: {{ speaker.stance }}</div>
+                    </div>
                 </div>
-                  <div class="card-footer text-muted small p-2">
-                      {{ speaker.attendance }}
-                  </div>
-              </div>
             </div>
-          </div>
         {% endfor %}
-      </div>
     </div>
+</div>
+
+
 <hr>
 <h3>Paper session (Accepted papers): </h3>
 <i>5 min presentation + 2 min Q&amp;A</i>
@@ -92,27 +101,30 @@ nav_order: 6
 <h3>Panel session #2 - Personalization reinforces social stereotypes and biases</h3>
 <p><i>Personalised robots help adapt to user preferences and habits but at the same time they risk narrowing users' world-views and hinder opportunities for growth by overly customising experiences.</i></p>
 <div id="myCarouselSpeakers" class="carousel container card-deck mt-3 mb-5">
-      <div class="carousel-inner w-100">  
-        {% assign speakers = site.data.speakers.speakers | where: "session", "Session2" %}
-        {% for speaker in speakers %}
+    <div class="carousel-inner w-100 d-flex">  
+        {% assign speakers_against = site.data.speakers.speakers | where: "session", "Session2" | where: "stance", "AGAINST" %}
+        {% assign speakers_for = site.data.speakers.speakers | where: "session", "Session2" | where: "stance", "FOR" %}
+        {% assign all_speakers = speakers_for | concat: speakers_against %}
+        {% for speaker in all_speakers %}
             <div class="carousel-item {% if forloop.first %}active{% endif %}">
-              <div class="col-md-3 my-1 pr-0 pl-0 h-100">
-                <div class="card p-1">
-                <a href="{{ speaker.website }}" target="_blank">
-                  <img src="{{ speaker.image }}" class="card-img-top speaker-img" alt="{{ speaker.name }}">
-                </a>
-                <div class="card-body p-2">
-                  <h5 class="card-title">{{ speaker.name }}</h5>
-                  <p class="card-text">{{ speaker.title }}</p>
-                  <p class="card-text">{{ speaker.affiliation }}</p>
+                <div class="col-md-3 my-1 pr-0 pl-0 h-100">
+                    <div class="card p-1">
+                        <a href="{{ speaker.website }}" target="_blank">
+                            <img src="{{ speaker.image }}" class="card-img-top speaker-img" alt="{{ speaker.name }}">
+                        </a>
+                        <div class="card-body p-2">
+                            <h5 class="card-title">{{ speaker.name }}</h5>
+                            <p class="card-text">{{ speaker.title }}</p>
+                            <p class="card-text">{{ speaker.affiliation }}</p>
+                        </div>
+                        <div class="card-footer text-muted small p-2">
+                            {{ speaker.attendance }}
+                        </div>
+                        <div class="card-footer text-muted small p-2">Stance: {{ speaker.stance }}</div>
+                    </div>
                 </div>
-                  <div class="card-footer text-muted small p-2">
-                      {{ speaker.attendance }}
-                  </div>
-              </div>
             </div>
-          </div>
         {% endfor %}
-      </div>
     </div>
+  </div>
 <hr>
