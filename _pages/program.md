@@ -24,6 +24,12 @@ The panel sessions are organized as <b>Oxford style</b> debates and panellists a
 <br>
 Stances are highlighted in each panellist card.
 <hr>
+<div style="text-align: center;">
+      <p><a href="https://uni-augsburg.zoom-x.de/j/65783520158?pwd=bCC4HMEp86nk6Y9UbuXla31RIAugVB.1" class="btn main-button" target="_blank">Zoom Link</a></p>
+    <p>Meeting ID: 657 8352 0158</p>
+    <p>Passcode: sAS9=. </p>
+</div>
+<hr>
 <h3>Panel session #1 - Personalization relinquishes user autonomy</h3>
 <p><i>The design of personalised social robots must find a delicate balance between empowering the user and preserving their autonomy to avoid fostering overdependence and diminishing self-sufficiency.</i></p>
   <div id="myCarouselSpeakers" class="carousel container card-deck mt-3 mb-5">

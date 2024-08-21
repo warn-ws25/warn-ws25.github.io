@@ -16,7 +16,7 @@
         "website": "https://www.geoffrey-louie.com/",
         "title": "Associate Professor",
         "affiliation": "Oakland University",
-        "session": "Session1",
+        "session": "Session2",
         "attendance": "In person <i class='fa-solid fa-user'></i>",
         "stance":"AGAINST",
         "contribution": "Panellist"
@@ -93,7 +93,7 @@
         "website": "https://eshort.github.io/",
         "title": "Clare Boothe Luce Assistant Professor",
         "affiliation": "Tufts University",
-        "session": "Session2",
+        "session": "Session1",
         "attendance": "In person <i class='fa-solid fa-user'></i>",
         "stance":"AGAINST",
         "contribution": "Panellist"
