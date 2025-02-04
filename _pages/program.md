@@ -7,6 +7,8 @@ nav: true
 nav_order: 6
 ---
 <hr>
+To be defined
+
 <!-- <h3>Workshop program</h3>
 <ul> 
     <li>Introduction of the drafted journal structure that will serve as pivotal discussion guideline during the workshop</li>
@@ -15,8 +17,7 @@ nav_order: 6
     <li>Plenary session to present the results of the breakout sessions</li>
     <li>Panel session</li>
     <li>Closing remarks and definition of plan of action for the scientific contribution</li>
-</ul> -->
-
+</ul> 
 <div class="card my-5" style="min-height: inherit; max-width: 50%; margin-left: auto !important; margin-right: auto !important;">
     <img src="/assets/img/program.png" class="mx-auto d-block" >
 </div>
@@ -37,7 +38,6 @@ Stances are highlighted in each panellist card.
         {% assign speakers_against = site.data.speakers.speakers | where: "session", "Session1" | where: "stance", "AGAINST" %}
         {% assign speakers_for = site.data.speakers.speakers | where: "session", "Session1" | where: "stance", "FOR" %}
         {% assign all_speakers = speakers_for | concat: speakers_against %}
-
         {% for speaker in all_speakers %}
             <div class="carousel-item {% if forloop.first %}active{% endif %}">
                 <div class="col-md-3 my-1 pr-0 pl-0 h-100">
@@ -60,8 +60,6 @@ Stances are highlighted in each panellist card.
         {% endfor %}
     </div>
 </div>
-
-
 <hr>
 <h3>Paper session (Accepted papers): </h3>
 <i>5 min presentation + 2 min Q&amp;A</i>
@@ -77,7 +75,6 @@ Stances are highlighted in each panellist card.
 <hr>
 <h3>Coffee Break</h3>
 <hr>
-
 <h3>The Keynote Speaker: </h3>
 <div class="row" style="display: flex; justify-content: center;">
   <div class="col-md-3 pr-0 pl-0 m-1" style = "min-height: 400px; max-width: 255px;">
@@ -102,7 +99,6 @@ Stances are highlighted in each panellist card.
       </div>
   </div>
 </div>
-
 <hr>
 <h3>Panel session #2 - Personalization reinforces social stereotypes and biases</h3>
 <p><i>Personalised robots help adapt to user preferences and habits but at the same time they risk narrowing users' world-views and hinder opportunities for growth by overly customising experiences.</i></p>
@@ -134,3 +130,4 @@ Stances are highlighted in each panellist card.
     </div>
   </div>
 <hr>
+-->

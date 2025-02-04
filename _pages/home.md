@@ -37,12 +37,12 @@ pagination:
     <ul class="p-0 m-0">      
         <li>
           <!-- <i class="fa-solid fa-hashtag fa-sm"></i> -->
-          Workshop included in: <a href="https://www.ro-man2024.org/" target=_blank>IEEE RO-MAN24</a>
+          Workshop proposed at: <a href="https://www.ro-man2025.org/" target=_blank>IEEE RO-MAN25</a>
         </li>
           <p>&bull;</p>
-          <i class="fa-solid fa-pin fa-sm"></i> <p>26th August 2024</p>
+          <i class="fa-solid fa-pin fa-sm"></i> <p>TBD</p>
         <p>&bull;</p>
-        <i class="fa fa-place" aria-hidden="true"></i> <p>Pasadena California, USA</p>
+        <i class="fa fa-place" aria-hidden="true"></i> <p>Eindhoven, The Netherlands</p>
     </ul>
   </div>
 
@@ -78,29 +78,6 @@ pagination:
   {% endif %}
   <img class="card-img" src="{{ site.baseurl }}/assets/img/{{ page.img }}" alt="image">
   </div>
-
-  <div class="col-sm-12">
-  <h3>Goal</h3>
-  <p class="main-description">
-  The workshop aims to lay the foundations for a potential <b>journal publication</b>, using the insights and discussions generated during the sessions. Participants will be encouraged to actively contribute to the journal to ensure diverse perspectives and comprehensive coverage of the topics discussed, thereby increasing the impact of the results. For this reason, the workshop program will alternate interactive activities with panel sessions and keynote presentations. This will enhance the comprehension of the topic while maintaining an engaging structure for the audience.
-  </p>
-
-  <p>Contact us at: <a href="mailto:warn-workshop@proton.me">warn-workshop@proton.me</a></p>
-  </div>
-
-  <div class="col-sm-12">
-  <h3>Submit your contribution</h3>
-    <p class="main-description">
-    We invite paper submissions of novel work (even in the form of initial ideas, and methodology design), summaries of past work that are relevant for the topics of interest. 
-    Extended abstracts: up to 2 pages excluding references (e.g., for short paragraphs/ abstracts / opinion / future plans) <br>
-    More details in <a href="{{ site.baseurl }}/program">program</a>.
-    </p>
-    <div style="text-align: center;">
-      <a href="https://easychair.org/my/conference?conf=warn24" class="btn main-button disabled" target="_blank">Submit Your Manuscript</a>
-    <i>Submissions are closed.</i>
-    </div>
-  </div>
-</div>
 
 <hr>
 
@@ -158,27 +135,16 @@ pagination:
 <hr>
 <p>Brought to you by</p>
 
-<div class="card-group mt-3 mb-5">
-  <div class="card m-1 p-1">
-    <a href="http://www.perseo.eu">
-      <img src="{{ site.baseurl }}/assets/img/perseo.png" class="card-img-top" alt="Perseo">
-    </a>
-  </div>
+<p>LOGOS</p>
 
+<!-- <div class="card-group mt-3 mb-5">
   <div class="card m-1 p-1" style="align-self: flex-start;">
     <a href="https://www.iiia.csic.es/">
-      <img src="{{ site.baseurl }}/assets/img/iiia-small.png" class="card-img-top" alt="IIIA">
+      <img src="{{ site.baseurl }}/assets/img/iri2025.png" class="card-img-top" alt="IIIA">
     </a>
   </div>
 
 <div class="col">
-  <div class="row">
-    <div class="card m-1 p-1" style="align-self: flex-start;">
-      <a href="http://www.unina.it">
-        <img src="{{ site.baseurl }}/assets/img/unina.png" class="card-img-center" alt="Federico II">
-      </a>
-    </div>
-  </div>
   <div class="row">
     <div class="card m-1 p-1" style="align-self: flex-start;">
       <a href="http://www.unibz.it">
@@ -194,7 +160,7 @@ pagination:
     </a>
   </div>
 
-</div>
+</div> -->
 <hr>
 </div>
   

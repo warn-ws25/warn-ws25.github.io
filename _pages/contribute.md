@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 <hr>
-<div>
+<!-- <div>
 <h3>Important Dates</h3>
 <ul>
     <li>Deadline for Paper Submission: <s>July 1st, 2024</s> <b>July 15th, 2024</b></li>
@@ -22,7 +22,7 @@ nav_order: 2
     <i>Submissions are closed.</i>
   </div>
 </div>
-<hr>
+<hr> -->
 
 <h3>List of topics:</h3>
 <ul>
