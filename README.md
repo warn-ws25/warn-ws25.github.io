@@ -1,6 +1,10 @@
 # website for workshop WARN
 
+Develop locally with:
 
-Website available at: <a href="https://warn-workshop.github.io/" target="_blank">https://warn-workshop.github.io/</a>.
+´´´
+docker-compose up --build
+´´´
+
 
 Based on the template <a href="https://github.com/alshedivat/al-folio/" target="_blank">al folio</a>.
